@@ -1,0 +1,90 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+  <item
+      android:id="@+id/action_search"
+      android:icon="@android:drawable/ic_menu_search"
+      android:title="action_search"
+      app:actionViewClass="android.support.v7.widget.SearchView"
+      android:visible="false"
+      app:showAsAction="always|collapseActionView" />
+  <!--  <item android:id="@+id/action_speeches"
+        android:title="Speeches"
+
+        android:orderInCategory="1"
+        app:showAsAction="always" >
+        &lt;!&ndash;android:icon="@drawable/ic_invert_colors_black_24dp">&ndash;&gt;
+
+        <menu>
+            <item
+
+                android:id="@+id/menuSortOrator"
+
+                android:title="Sort by Orator" />
+            <item
+                android:id="@+id/menuSortSubject"
+                android:title="Sort by Subject" />
+            <item
+                android:id="@+id/menuSortProgram"
+                android:title="Sort by Program" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_quthuba"
+        android:title="Quthuba"
+        android:orderInCategory="2"
+        app:showAsAction="never" >
+        &lt;!&ndash;android:icon="@drawable/ic_invert_colors_black_24dp">&ndash;&gt;
+
+        <menu>
+            <item
+
+                android:id="@+id/menuNewQuthuba"
+
+                android:title="new" />
+            <item
+                android:id="@+id/menuSortKatheeb"
+                android:title="Sort By Katheeb" />
+            <item
+                android:id="@+id/menuSortMasjid"
+                android:title="Sort By Masjid" />
+        </menu>
+    </item>
+
+        &lt;!&ndash;android:icon="@drawable/ic_my_location_black_24dp"&ndash;&gt;
+    <item android:id="@+id/action_VoiceOfIslam"
+        android:title="Voice Of Islam"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" >
+        &lt;!&ndash;android:icon="@drawable/ic_invert_colors_black_24dp">&ndash;&gt;
+
+        <menu>
+            <item
+
+                android:id="@+id/menuThought"
+
+                android:title="Thought For The Day" />
+            <item
+                android:id="@+id/menuShortAudio"
+                android:title="Short Audio Clips" />
+            <item
+                android:id="@+id/menuOrgResponse"
+                android:title="Organisational Response In Recent Issues" />
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/action_quranrecitation"
+        android:title="Quran Recitations"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom"
+        >
+        &lt;!&ndash;android:icon="@drawable/ic_invert_colors_black_24dp">&ndash;&gt;
+
+
+    </item>-->
+
+
+
+</menu>

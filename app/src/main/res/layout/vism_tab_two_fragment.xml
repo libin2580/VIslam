@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@color/colorPrimary"
+
+        android:layout_gravity="center_horizontal|top">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="9"
+
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@android:drawable/ic_menu_search"
+                android:visibility="gone"
+                android:id="@+id/imageView7"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView3" />
+
+            <com.arlib.floatingsearchview.FloatingSearchView
+                android:id="@+id/floating_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:floatingSearch_searchBarMarginLeft="5dp"
+                app:floatingSearch_searchBarMarginTop="5dp"
+                app:floatingSearch_searchBarMarginRight="5dp"
+                app:floatingSearch_searchHint="Search"
+                app:floatingSearch_suggestionsListAnimDuration="250"
+                app:floatingSearch_showSearchKey="true"
+                app:floatingSearch_hintTextColor="@android:color/white"
+                app:floatingSearch_clearBtnColor="@android:color/white"
+
+                app:floatingSearch_dividerColor="@android:color/white"
+                app:floatingSearch_viewTextColor="@android:color/white"
+                app:floatingSearch_actionMenuOverflowColor="@android:color/white"
+                app:floatingSearch_leftActionColor="@android:color/white"
+                app:floatingSearch_menuItemIconColor="@android:color/white"
+                app:floatingSearch_suggestionRightIconColor="@android:color/white"
+
+
+                app:floatingSearch_backgroundColor="@color/colorPrimary"
+                app:floatingSearch_leftActionMode="showSearch"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_menu"
+
+
+                android:background="@drawable/ic_more_vert_white_24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--   <LinearLayout
+           android:orientation="horizontal"
+           android:id="@+id/linear"
+           android:layout_width="match_parent"
+           android:layout_height="61dp"
+           android:background="@color/colorPrimary"
+           android:layout_gravity="center_horizontal|top"
+
+           android:gravity="center"
+
+       >
+
+           <ImageView
+               android:layout_width="@dimen/_25sdp"
+               android:layout_height="@dimen/_25sdp"
+               android:background="@android:drawable/ic_menu_search"
+               android:visibility="gone"
+               android:id="@+id/imageView7"
+            />
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text=""
+               android:gravity="center"
+               android:padding="@dimen/_5sdp"
+               android:layout_marginRight="@dimen/_10sdp"
+               android:layout_gravity="center"
+               android:background="@color/colorPrimary"
+               android:textColor="@android:color/white"
+               android:id="@+id/textView3" />
+
+           <com.arlib.floatingsearchview.FloatingSearchView
+               android:id="@+id/floating_search_view"
+               android:layout_width="348dp"
+               android:layout_height="wrap_content"
+               app:floatingSearch_searchBarMarginLeft="5dp"
+               app:floatingSearch_searchBarMarginTop="5dp"
+               app:floatingSearch_searchBarMarginRight="5dp"
+               app:floatingSearch_searchHint="Search"
+               app:floatingSearch_suggestionsListAnimDuration="250"
+               app:floatingSearch_showSearchKey="true"
+               app:floatingSearch_hintTextColor="@android:color/white"
+               app:floatingSearch_clearBtnColor="@android:color/white"
+
+               app:floatingSearch_dividerColor="@android:color/white"
+               app:floatingSearch_viewTextColor="@android:color/white"
+               app:floatingSearch_actionMenuOverflowColor="@android:color/white"
+               app:floatingSearch_leftActionColor="@android:color/white"
+               app:floatingSearch_menuItemIconColor="@android:color/white"
+               app:floatingSearch_suggestionRightIconColor="@android:color/white"
+
+
+               app:floatingSearch_backgroundColor="@color/colorPrimary"
+               app:floatingSearch_leftActionMode="showSearch"
+               app:floatingSearch_menu="@menu/menu_main" />
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_weight=".1"
+               android:layout_gravity="center"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/img_menu"
+
+                   android:background="@drawable/ic_more_vert_white_24dp"/>
+           </LinearLayout>
+
+
+       </LinearLayout>-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swiperefreshlayout"
+        android:layout_below="@+id/linear"
+        >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:requiresFadingEdge="vertical"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_rv2"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:requiresFadingEdge="vertical"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear"
+        android:id="@+id/framelayout_forclick"
+        android:visibility="gone">
+
+
+    </FrameLayout>
+
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+   <!-- <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+
+        android:indeterminateDrawable="@drawable/my_wheel"
+        android:layout_centerInParent="true" />-->
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mk_type="TwinFishesSpinner"
+        android:visibility="gone"
+        android:id="@+id/progress_bar"
+        app:mk_color="@color/colorPrimary"
+
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>

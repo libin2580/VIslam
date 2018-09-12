@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#000000"
+    android:alpha="0.7"
+    >
+    <ImageView
+        android:id="@+id/status_bar_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:padding="5dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now playing:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+android:layout_margin="@dimen/_15sdp"
+        android:id="@+id/textView" />
+
+
+    <ImageButton
+        android:id="@+id/status_bar_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_play"
+
+        android:contentDescription="@string/cd_play" />
+    <ImageButton
+        android:id="@+id/status_bar_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_pause"
+        android:contentDescription="@string/cd_play" />
+
+</LinearLayout>

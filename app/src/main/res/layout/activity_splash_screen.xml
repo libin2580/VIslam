@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/about_us_back"
+android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.meridian.voiceofislam.SplashScreen">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_100sdp"
+
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:src="@mipmap/app_icon" />
+
+</LinearLayout>

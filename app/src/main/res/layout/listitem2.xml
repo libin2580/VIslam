@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+android:id="@+id/cv">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/audio_new">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/Subcategry_audio_thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rvimgsample" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".55"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/popup_click"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="subcategory_title"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+
+                        android:ellipsize="end"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/subcategory_audio_title"
+                        android:textSize="15sp"   />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="subcategory_orator"
+                        android:textSize="12sp"
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/subcategory_orator"  />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#df4646"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:paddingBottom="@dimen/_2sdp"
+                        android:id="@+id/subcategory_news">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New"
+                        android:id="@+id/new_audio"
+
+                        android:gravity="center"
+
+                        android:textSize="12sp"
+
+                        android:textColor="@android:color/white"
+                          />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                    <ProgressBar android:id="@+id/progress_bar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:indeterminateDrawable="@drawable/my_wheel"
+                        android:layout_centerInParent="true" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="false"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@+id/lin_download">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:id="@+id/download"
+
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:background="@drawable/download__1_" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/view2"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:background="@drawable/tick"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+
+

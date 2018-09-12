@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_speeches1"
+        android:title="Speeches"
+        android:orderInCategory="1"
+        app:showAsAction="always" >
+        <!--android:icon="@drawable/ic_invert_colors_black_24dp">-->
+
+
+    </item>
+
+    <item
+        android:id="@+id/action_quthuba2"
+        android:title="Quthuba"
+        android:orderInCategory="2"
+        app:showAsAction="never" >
+        <!--android:icon="@drawable/ic_invert_colors_black_24dp">-->
+
+
+    </item>
+
+        <!--android:icon="@drawable/ic_my_location_black_24dp"-->
+    <item android:id="@+id/action_VoiceOfIslam3"
+        android:title="Voice Of Islam"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" >
+        <!--android:icon="@drawable/ic_invert_colors_black_24dp">-->
+
+        <menu>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_islamic_songs4"
+        android:title="Islamic Songs"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" >
+        <!--android:icon="@drawable/ic_invert_colors_black_24dp">-->
+
+        <menu>
+
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/action_quranrecitation5"
+        android:title="Quran Recitations"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom"
+        >
+        <!--android:icon="@drawable/ic_invert_colors_black_24dp">-->
+
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal|top">
+
+
+        <com.arlib.floatingsearchview.FloatingSearchView
+            android:id="@+id/floating_search_view"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_weight="1"
+            app:floatingSearch_searchBarMarginLeft="5dp"
+            app:floatingSearch_searchBarMarginTop="5dp"
+            app:floatingSearch_searchBarMarginRight="5dp"
+            app:floatingSearch_searchHint="Search"
+            app:floatingSearch_suggestionsListAnimDuration="250"
+            app:floatingSearch_showSearchKey="true"
+            app:floatingSearch_hintTextColor="@android:color/white"
+            app:floatingSearch_clearBtnColor="@android:color/white"
+
+            app:floatingSearch_dividerColor="@android:color/white"
+            app:floatingSearch_viewTextColor="@android:color/white"
+            app:floatingSearch_actionMenuOverflowColor="@android:color/white"
+            app:floatingSearch_leftActionColor="@android:color/white"
+            app:floatingSearch_menuItemIconColor="@android:color/white"
+            app:floatingSearch_suggestionRightIconColor="@android:color/white"
+
+
+            app:floatingSearch_backgroundColor="@color/colorPrimary"
+            app:floatingSearch_leftActionMode="showSearch"
+            app:floatingSearch_menu="@menu/menu_main"/>
+        <Spinner
+            android:id="@+id/div"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:layout_margin="10dp"
+android:dropDownWidth="250dp"
+            android:background="@drawable/ic_more_vert_black_24dp"
+            android:padding="10dp"
+
+            android:popupBackground="@color/colorPrimary"
+            android:gravity="left|end"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear" />
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+
+        android:indeterminateDrawable="@drawable/my_wheel"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

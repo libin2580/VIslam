@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="av_color1">#A086C4</color>
+    <color name="av_color2">#483265</color>
+    <color name="av_color3">#3c2a54</color>
+    <color name="av_color4">#302143</color>
+
+    <color name="av_color_bg">#A086C4</color>
+
+    <array name="av_colors">
+        <item>@color/av_color4</item>
+        <item>@color/av_color3</item>
+        <item>@color/av_color2</item>
+        <item>@color/av_color1</item>
+    </array>
+</resources>

@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:orientation="vertical"
+     android:gravity="center"
+     android:id="@+id/ll"
+    android:background="@drawable/blackbak"
+     android:layout_weight="1.93">
+
+
+     <!--<com.meridian.voiceofislam.VisualizerView-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:layout_height="338dp"-->
+         <!--android:id="@+id/visualiserview"-->
+         <!--&gt;-->
+     <!--</com.meridian.voiceofislam.VisualizerView>-->
+
+
+
+
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/backgroundradio">
+        <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/play_radio"
+    android:id="@+id/implay"
+  />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

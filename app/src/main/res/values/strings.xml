@@ -1,0 +1,36 @@
+<resources>
+    <string name="apps_name">Voice of Islam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ok">ok</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+
+    <string-array name="planets_array">
+        <item>SPEECHES</item>
+        <item>QUTHUBA</item>
+        <item>VOICE OF ISLAM</item>
+        <item>QURAN RECITATIONS</item>
+
+    </string-array>
+    <string name="toast_permissions_not_granted">Permissions not granted.</string>
+    <string name="message_permissions"><![CDATA[To allow audio visualization view to process audio stream app needs an access to your <b>Microphone</b>.]]></string>
+    <string name="about">The Voice of Islam is a mobile application developed under the aegis of Kerala Nadvathul Mujahideen (KNM),
+        a Muslim education institute founded in the Indian state of Kerala in 1950.
+        The organization follows the principles of the Salafism, a movement founded in the 18th century in Egypt.
+        KNM advocates the equality to follow the principles of Islam by all sectors of people including ladies and gents, religious scholars and
+        non – scholars alike. The Kerala Nadvathul Mujahideen formed as a consequence of renaissance activities of scholars and clerics such as Sheikh Hamadani Thangal, K.M. Moulavi and Vakkom Moulavi for Kerala Muslim renaissance.
+Kerala Nadvathul Mujahideen is considered as the successor of "Kerala Muslim Aikhya Sangam", the first Muslandm organization in Kerala, founded in 1924.The social, cultural, educational, and religious activities of Kerala Nadvathul Mujahideen enhances the Kerala Muslim renaissance, and enables them to create their own characteristics and peculiarities that distinguish them from other Muslim communities in India by achieving high percentage of literacy and a prestigious social status. The activities of KNM are spread across India and abroad.
+</string>
+
+
+</resources>
